@@ -17,7 +17,7 @@ app.use(bodyparser.urlencoded({
 app.use(bodyparser.json());
 
 // db config
-const db = require('./config/keys').mongoURI;
+// const db = require('./config/keys').mongoURI;
 
 // connect  to MongoDb
 // mongoose
@@ -25,7 +25,7 @@ const db = require('./config/keys').mongoURI;
 //     .then(() => console.log('mongoDB connected'))
 //     .catch(err => console.log(err));
 
-// app.get("/", (req, res) => res.send("hello world "));
+app.get("/", (req, res) => res.send("hello world "));
 
 // passport middleware
 app.use(passport.initialize());
