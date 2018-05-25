@@ -1,4 +1,4 @@
 module.exports = {
-    mongoURI: 'mongodb://username:user.mlab.com:31725/devconnector',
+    mongoURI: 'mongodb://devflex:devFlex!@ds237120.mlab.com:37120/devflex',
     secretOrKey: 'secret'
 };
