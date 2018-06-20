@@ -17,13 +17,13 @@ app.use(bodyparser.urlencoded({
 app.use(bodyparser.json());
 
 // db config
-// const db = require('./config/keys').mongoURI;
+const db = require('./config/keys').mongoURI;
 
 // connect  to MongoDb
-// mongoose
-//     .connect(db)
-//     .then(() => console.log('mongoDB connected'))
-//     .catch(err => console.log(err));
+mongoose
+    .connect(db)
+    .then(() => console.log('mongoDB connected'))
+    .catch(err => console.log(err));
 
 app.get("/", (req, res) => res.send("hello world "));
 
