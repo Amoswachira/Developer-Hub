@@ -1,5 +1,5 @@
 # Developer-Hub 
-Build using MERN (Mongo, Express, React and NodeJS.)
+Build using the MERN (Mongo, Express, React and NodeJS.) stack.
 
 *Authentication using Passport.js
 
