@@ -7,4 +7,4 @@ Build using the MERN (Mongo, Express, React and NodeJS.) stack.
 
 *using MongoDb database https://mlab.com/
 
-Live Link https://devehub.herokuapp.com/
+Live Link https://merndevplus.herokuapp.com/
